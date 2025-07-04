@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dripper Shop | Home</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/allmodals.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<header>
+  <a href="index.html" class="logo">
+    <img src="images/dripperlogo.png" alt="Dripper Shop Logo">
+    <div>
+      <h1>Dripper Shop</h1>
+      <p>elegance is ours</p>
+    </div>
+  </a>
+  <nav>
+    <div class="nav-content">
+      <ul>
+        <li><a href="index.html">NEW IN</a></li>
+        <li><a href="content.html">Category</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="search-box">
+          <input type="text" placeholder="Search an item">
+          <i class="fas fa-search"></i>
+      </div>
+    </div>
+  </nav>
+</header>
+<main>
+<section class="welcome_offer">
+  <div class="offer-container">
+    <div class="product product-left">
+      <img  src="images/promotionsImg/crocs.webp" alt="Produit 1">
+      <span class="price-tag">59,99$</span>
+      <span class="discount">-10%</span>
+    </div>
+    
+    <div class="offer-text">
+      <h2>Welcome offer</h2>
+      <p>Get free delivery on your first command</p>
+      <a href="offer.html" class="offer-btn">Enjoy it now</a>
+    </div>
+    
+    <div class="product product-right">
+      <img src="images/promotionsImg/crocks.webp" alt="Produit 2">
+      <span class="price-tag">40,99$</span>
+    </div>
+  </div>
+</section>
+
+    <section class="promos">
+      <h2>Promotions</h2>
+      <div class="promo-items">
+        <!-- Promo Items -->
+        <div class="promo-item">
+          <img id ="shirt" src="images/promotionsImg/shirt_black.webp" 
+               alt="Promo Item 1"
+               data-description="Black Shirt with modern fit.">
+          <p>50% off on selected items!</p>
+        </div>
+        <div class="promo-item">
+          <img src="images/promotionsImg/shirt_grey.webp" 
+          alt="Promo Item 2"
+          data-description="Modern basic shirt.">
+          <p>Buy one get one free on accessories!</p>
+        </div>
+        <div class="promo-item">
+          <img id ="shark_shirt" src="images/promotionsImg/shirt_shark.webp" 
+          alt="Promo Item 2"
+          data-description="Luxury shirt.">
+          <p>Get free delivery!</p>
+        </div>
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="imgInModal" />
+          <div id="caption"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class = "best_offers">
+      <h2>Best Offers</h2>
+      <div class="items">
+        <div class="item">
+          <img src="images/bestOffersImg/airmax.webp" alt="Running Shoes">
+          <p>Running Shoes<span>$59.99</span></p>
+        </div>
+        <div class="item">
+          <img src="images/bestOffersImg/splash_crossbody_black_01_crop.webp" alt="Luxury Bag">
+          <p>Luxury Bag<span>$49.99</span></p>
+        </div>
+        <div class="item">
+          <img src="images/bestOffersImg/gl400_glxnikon_black_1_crop.webp" alt="Luxury Bag">
+          <p>Luxury Bag<span>$149.99</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured">
+      <h2>Featured Items</h2>
+      <div class="items">
+        <div class="item">
+          <img src="images/featuredItemsImg/summerdressmen.webp" alt="Summer Dress">
+          <p>Elegant Summer Dress<span>$79.99</span></p>
+        </div>
+        <div class="item">
+          <img src="images/featuredItemsImg/summergirl.webp" alt="Summer Dress">
+          <p>Elegant Summer Dress<span>$79.99</span></p>
+        </div>
+        <div class="item">
+          <img src="images/featuredItemsImg/suit.webp" alt="Classic Men’s Suit">
+          <p>Classic Men's Suit<span>$149.99</span></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+        <div class="openeddays">
+            <h3>Opening Hours</h3>
+            <p>Monday to Friday: 9:00 AM - 6:00 PM</p>
+            <p>Saturday: 10:00 AM - 4:00 PM</p>
+            <p>Sunday: Closed</p>
+        </div>
+        <div class="location">
+            <h3>Location</h3>
+            <p>123 Library Lane, Booktown, BK 12345</p>
+        </div>
+        <div class="contact">
+            <h3>Contact Us</h3>
+            <p>onizuka@brrr.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </div>
+        <div class="social-icons">
+            <h3>Social Network</h3>
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2025 Dripper Shop. All rights reserved.</p>
+    </footer>
+    <script src="js/manager.js"></script>
+</body>
+</html>

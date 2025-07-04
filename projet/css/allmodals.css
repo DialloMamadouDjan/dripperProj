@@ -1,0 +1,44 @@
+/* Modal for home page Promotions items*/
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  padding-top: 60px;
+  top: 0;
+  width: 50%;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+  background-color: rgba(0,0,0,0.8);
+  box-sizing: border-box;
+  transform: translate(-50%, -50%);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  max-width: 60%;
+  max-height: 60%;
+  border-radius: 8px;
+}
+
+#caption {
+  margin: auto;
+  width: 30%;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
+
+.close {
+  position: absolute;
+  top: 30px;
+  right: 45px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* End of Modal for home page Promotions items*/

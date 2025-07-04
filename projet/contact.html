@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+<header>
+  <div class="logo">
+    <img src="images/dripperlogo.png" alt="Dripper Shop Logo" />
+    <div>
+        <h1>Dripper Shop</h1>
+        <p>elegance is ours</p>
+      </div>
+    </div>
+    <nav>
+      <div class="nav-content">
+        <ul>
+            <li><a href="index.html">NEW IN</a></li>
+            <li><a href="content.html">Category</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="search-box" >
+          <input type="text" placeholder="Search an item" />
+          <i class="fas fa-search"></i>
+        </div>
+      </div>
+    </nav>
+</header>
+<div class="container">
+  <div class="contact_header">
+    <div class="back-arrow">&#8592;</div>
+    <h2>Contact Us</h2>
+  </div>
+  <form id="contactForm">
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="Enter your name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Enter your email" required>
+
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" placeholder="Enter your phone number" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" rows="5" required></textarea>
+
+    <button type="submit">Send</button>
+  </form>
+</div>
+<div class="message-history">
+  <h3>Messages History</h3>
+  <ul id="messageList"></ul>
+</div>
+<footer class="footer">
+  <div class="openeddays">
+    <h3>Opening Hours</h3>
+    <p>Monday to Friday: 9:00 AM - 6:00 PM</p>
+    <p>Saturday: 10:00 AM - 4:00 PM</p>
+    <p>Sunday: Closed</p>
+  </div>
+  <div class="location">
+    <h3>Location</h3>
+    <p>123 Library Lane, Booktown, BK 12345</p>
+  </div>
+  <div class="contact">
+    <h3>Contact Us</h3>
+    <p>onizuka@brrr.com</p>
+    <p>Phone: (123) 456-7890</p>
+  </div>
+  <div class="social-icons">
+    <h3>Social Network</h3>
+    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+  </div><p>&copy; 2025 Dripper Shop. All rights reserved.</p>
+</footer>
+<script src="js/manager.js"></script>
+</body>
+</html>
